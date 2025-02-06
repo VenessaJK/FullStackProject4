@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Smart Home Dashboard</title>
-        <link href="styles/style3.css" rel="stylesheet" />
+        <link href="styles/style.css" rel="stylesheet" />
     </head>
 
     <body class="container">
@@ -13,8 +13,8 @@
             </div>
             <div class="header-nav">
                 <span>
-                    <a href="#">Lights </a>
-                    <a href="#">Temperature </a>
+                    <a href="#">Lights</a>
+                    <a href="#">Temperature</a>
                     <a href="#">Security </a>
                     <a href="#">Energy</a>
                 </span>
@@ -27,7 +27,7 @@
 
         <nav class="nav">
             <div class="home">
-                <img class="home-img" src="assets/home-front-door.jpeg" width="50" height="50" alt="porch with blue front door">
+                <img class="home-img" src="assets/home-front-door.jpeg" width="75" height="75" alt="porch with blue front door">
                 <h3 class="my-home">My Home</h3>
                 <p class="home-adr">123 Maple Street</p>
             </div>
@@ -46,39 +46,40 @@
 
 
         <main class="main">
-            <div class="living-rm">
+            <div class="living-rm tile">
                 <img class="img" src="assets/living-room.jpeg" alt="living room">
             </div>
 
             <div class="system-tile tile">
-                <h3>System Health</h3>
+                <p class="title">System Health</p>
                 <p>Status: <span>All systems operational</span></p>
             </div>
 
             <div class="lights-tile tile">
-                <h3>Lights</h3>
+                <p class="title">Lights</p>
                 <img class="lightbulb" src="assets/lightbulb.png" alt="lightbulb" width="20" height="20">
                 <p>Status: ON</p>
                 <button>Toggle</button>
             </div>
 
             <div class="temp-tile tile">
-                <h3>Temperature</h3>
+                <p class="title">Temperature</p>
                 <p>Current Temperature: 65°F</p>
                 <input class="slider" type="range" min="0" max="100" value="65">
             </div>
 
             <div class="energy-tile tile">
-                <h3>Energy Usage</h3>
+                <p class="title">Energy Usage</p>
                 <p>Current Usage: 120 kWh</p>
                 <p>Monthly Estimate: 400 kWh</p>
             </div>
 
             <div class="security-tile tile">
-                <h3>Security</h3>
+                <p class="title">Security</p>
                 <p>Camera Feed: Active</p>
                 <button>View Feed</button>
             </div>
+
         </main>
 
 

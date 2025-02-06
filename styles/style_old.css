@@ -1,0 +1,71 @@
+.container {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    grid-template-rows: 3fr 5fr 5fr 5fr 3fr;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main main tile1"
+    "sidebar main main tile2"
+    "sidebar tile5 tile4 tile3"
+    "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(108, 175, 169);
+    text-align: left;
+    color: rgb(24, 89, 111);
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(210, 106, 15);
+}
+
+.front-door-img {
+    border-radius: 50%;
+
+}
+
+.main {
+    grid-area: main;
+    background-color: beige;
+}
+
+.tile1 {
+    grid-area: tile1;
+    background-color: rgb(44, 180, 225);
+}
+
+.tile2 {
+    grid-area: tile2;
+    background-color: rgb(205, 242, 244);
+}
+
+.tile3 {
+    grid-area: tile3;
+    background-color: orange;
+}
+
+.tile4 {
+    grid-area: tile4;
+    background-color: rgb(182, 221, 255);
+}
+
+.tile5 {
+    grid-area: tile5;
+    background-color: azure;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(76, 157, 150);
+}
+
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+}
