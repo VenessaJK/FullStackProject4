@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Smart Home Dashboard</title>
+        <link href="styles/style3.css" rel="stylesheet" />
+    </head>
+
+    <body class="container">
+        <header class="header">
+            <div class="logo-name">
+                <p>Smart Home</p>
+            </div>
+            <div class="header-nav">
+                <span>
+                    <a href="#">Lights </a>
+                    <a href="#">Temperature </a>
+                    <a href="#">Security </a>
+                    <a href="#">Energy</a>
+                </span>
+            </div>
+            <div class="user-welcome">
+                <span>Welcome, User</span>
+            </div>
+        </header>
+
+
+        <nav class="nav">
+            <div class="home">
+                <img class="home-img" src="assets/home-front-door.jpeg" width="50" height="50" alt="porch with blue front door">
+                <h3 class="my-home">My Home</h3>
+                <p class="home-adr">123 Maple Street</p>
+            </div>
+
+            <div class="nav-nav">
+                <ul>
+                    <li>History</li>
+                    <li>Gallery</li>
+                    <li>Rules</li>
+                    <li>Analytics</li>
+                    <li>Devices</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <main class="main">
+            <div class="living-rm">
+                <img class="img" src="assets/living-room.jpeg" alt="living room">
+            </div>
+
+            <div class="system-tile tile">
+                <h3>System Health</h3>
+                <p>Status: <span>All systems operational</span></p>
+            </div>
+
+            <div class="lights-tile tile">
+                <h3>Lights</h3>
+                <img class="lightbulb" src="assets/lightbulb.png" alt="lightbulb" width="20" height="20">
+                <p>Status: ON</p>
+                <button>Toggle</button>
+            </div>
+
+            <div class="temp-tile tile">
+                <h3>Temperature</h3>
+                <p>Current Temperature: 65°F</p>
+                <input class="slider" type="range" min="0" max="100" value="65">
+            </div>
+
+            <div class="energy-tile tile">
+                <h3>Energy Usage</h3>
+                <p>Current Usage: 120 kWh</p>
+                <p>Monthly Estimate: 400 kWh</p>
+            </div>
+
+            <div class="security-tile tile">
+                <h3>Security</h3>
+                <p>Camera Feed: Active</p>
+                <button>View Feed</button>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <p><span>Smart Home</span> Terms of Service | Privacy</p>
+        </footer>
+
+    </body>
+
+</html>
